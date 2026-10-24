@@ -1,2 +1,20 @@
-# multimodal-attendance---engagement-agent
-The Multimodal Attendance &amp; Engagement Agent is an AI-powered, privacy-focused system that automates attendance tracking, analyzes classroom engagement using computer vision and audio processing, and generates AI-driven teaching suggestions. Designed for offline operation, it helps educators improve classroom management and learning experiences.
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+</div>
+
+# Run and deploy your AI Studio app
+
+This contains everything you need to run your app locally.
+
+View your app in AI Studio: https://ai.studio/apps/a144d43b-2027-4686-95cb-6368d3a1ff21
+
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
